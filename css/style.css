@@ -133,7 +133,6 @@ header .row{
     display: flex;
     align-items: center;
     flex-direction: column;
-    text-align: center;
 }
 
 .text{
@@ -168,6 +167,10 @@ header .row{
 
 }
 
+.about-us .button{
+    padding: 10px 10px;
+}
+
 #apple{
     font-size: 20px;
     color: #fff;
@@ -191,6 +194,11 @@ header .row{
 .margin-bt-40px{
     margin: 40px 0px;
 }
+
+.margin-b-10px{
+    margin-bottom: 10px;
+}
+
 
 .margin-b-20px{
     margin-bottom: 20px;
@@ -303,6 +311,9 @@ header .row{
     margin: 20px 0px;
 }
 
+.testimonial h3{
+    margin: 30px 0px 10px;
+}
 
 /* Benefit */
 
@@ -397,36 +408,49 @@ footer a{
 
     }
 
-    .jumbotron .row, .about-us .row{
+    .jumbotron .row, .about-us .row, .col-100{
         flex-direction: row;
     }
 
+    .jumbotron .row, .about-us .row{
+        justify-content: space-between;
+    }
 
-    .col-70{
-        height: 100px;
-        width: 70%;
-        background-color: red;
-        margin:5px 0px ;
-    }
-    
-    .col-30{
-        height: 100px;
-        width: 30%;
-        background-color: yellow;
-        margin: 5px 0px;
-    }
-    
     .card .row{
         flex-direction: row;
         flex-wrap: wrap;
     }
 
-    .card .row .col-33{
-        width: calc(100%/2 - 15px);
-        background-color: blue;
-        margin: 0px 5px;
-        border: 1px solid black;
+    .col-33.jumbo{
+        width: calc(100% / 3 - 20px );
+        margin: 10px 0px;
     }
+    
+
+    .col-70{
+        width: 65%;
+        margin:0px ;
+    }
+    
+    .col-30{
+        width: 30%;
+        margin: 0px;
+    }
+    
+    .col-100{
+        flex-direction: row;
+    }
+
+    .testimonial img{
+        margin: 20px 30px 20px 0px;
+    }
+
+    .card .row .col-33{
+        width: calc(100%/2 - 40px);
+        margin: 10px 10px;
+    }
+
+
 }
 
 @media  screen and (min-width:991px) {
