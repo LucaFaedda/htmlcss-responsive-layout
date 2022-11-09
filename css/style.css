@@ -42,6 +42,10 @@ header{
     background-color: pink;
 }
 
+header .row{
+    flex-direction: row;
+}
+
 .row{
     display: flex;
     flex-direction: column;
@@ -95,6 +99,10 @@ header{
 }
 
 
+.list-desktop{
+    display: none;
+}
+
 /* Responsive  */
 
 @media screen and (min-width:768px){
@@ -144,6 +152,15 @@ header{
 
 @media  screen and (min-width:991px) {
     
+    .hamburger{
+        display: none;
+    }
+
+    .list-desktop{
+        display: block;
+    }
+
+
     .bk-purple .row{
         flex-direction: row;
     }
