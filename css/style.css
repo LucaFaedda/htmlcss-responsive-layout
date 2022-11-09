@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Open Sans', sans-serif;
+
+}
+
 .container{
     width: 90%;
     margin: 0 auto;
@@ -17,7 +22,7 @@
 header{
     height: 70px;
     width: 100%;
-    background-color: #0680f5;
+    background-color: #0084fd;
     display: flex;
     align-items: center;
     color: #fff;
@@ -70,25 +75,32 @@ header .row{
 }
 
 .col-70{
-    height: 100px;
     width: 100%;
-    background-color: red;
+    background-color: #b5ddff;
     margin:5px 0px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    padding: 20px 20px 0px;
 }
 
 .col-30{
-    height: 100px;
     width: 100%;
-    background-color: yellow;
+    background-color: #b5ddff;
     margin: 5px 0px;
+    text-align: center;
+    border-radius: 20px;
+    padding: 20px ;
 }
 
 .col-33{
-    height: 100px;
     width: 100%;
-    background-color: orange;
+    background-color: #b5ddff;
     margin: 5px 0px;
-    border: 1px solid black;
+    border-radius: 20px;
+    padding: 20px 20px 20px;
+    text-align: center;
 }
 
 .col-100{
@@ -106,8 +118,19 @@ header .row{
     margin: 5px 0px;
 }
 
+/* button */
 
+.button{
+    color: #fff;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 20px;
+}
 
+.button.blue{
+    background-color: #0680f5;
+    margin: 20px 0px;
+}
 
 /* Header */
 
@@ -118,6 +141,31 @@ header .row{
 .hamburger{
     text-align: right;
     font-size: 35px;
+}
+
+/* fine header */
+
+/* main */
+/* jumbotron */
+
+.jumbotron h3{
+    color: #0680f5;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.jumbotron p{
+    color: #506271;
+}
+
+.jumbotron img{
+    width: 50%;
+}
+
+.jumbotron i{
+    color: #0680f5;
+    font-size: 70px;
+    margin: 20px 0px;
 }
 
 /* Responsive  */
