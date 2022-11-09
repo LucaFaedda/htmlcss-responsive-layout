@@ -67,13 +67,17 @@ header .row{
 }
 
 .col-50{
-    height: 50px;
     width: 100%;
-    background-color: orange;
-    border: 1px solid black;
     margin: 5px 0px;
 }
 
+.col-50.white{
+    border-radius: 50px;
+    background-color: #fff;
+    margin: 40px 0px;
+    padding: 20px;
+    text-align: center;
+}
 .col-70{
     width: 100%;
     background-color: #b5ddff;
@@ -132,6 +136,34 @@ header .row{
     margin: 20px 0px;
 }
 
+#apple{
+    font-size: 20px;
+    color: #fff;
+    margin: 0;
+}
+
+/* Utility */
+
+.margin-bt-40px{
+    margin: 40px 0px;
+}
+
+.margin-b-20px{
+    margin-bottom: 20px;
+}
+
+.color-white{
+    color: #fff;
+}
+
+.line-height-2{
+    line-height: 2;
+}
+
+.italic{
+    font-style: italic;
+}
+
 /* Header */
 
 .list-desktop{
@@ -167,6 +199,25 @@ header .row{
     font-size: 70px;
     margin: 20px 0px;
 }
+
+/* Planning */
+
+.bk-purple{
+    background-color: #9792e4;
+    padding: 40px 0px;
+}
+
+.bk-purple img{
+    width: 100%;
+}
+
+.fa-arrow-down{
+    background-color: #9792e4;
+    padding: 10px 14px;
+    border-radius: 100%;
+    margin-top: 20px;
+}
+
 
 /* Responsive  */
 
