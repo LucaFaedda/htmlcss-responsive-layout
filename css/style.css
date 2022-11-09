@@ -17,10 +17,13 @@
 header{
     height: 70px;
     width: 100%;
-    background-color: aqua;
+    background-color: #0680f5;
     display: flex;
     align-items: center;
+    color: #fff;
 }
+
+/* strutturato con mobile first */
 
 .jumbotron{
     margin: 50px 0px;
@@ -35,6 +38,7 @@ header{
 .card{
     width: 100%;
 }
+
 
 .get-started{
     width: 100%;
@@ -52,6 +56,10 @@ header .row{
     width: 100%;
 }
 
+.col-50-header{
+    width: 100%;
+    margin: 5px 0px;
+}
 
 .col-50{
     height: 50px;
@@ -99,8 +107,17 @@ header .row{
 }
 
 
+
+
+/* Header */
+
 .list-desktop{
     display: none;
+}
+
+.hamburger{
+    text-align: right;
+    font-size: 35px;
 }
 
 /* Responsive  */
