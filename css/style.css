@@ -19,12 +19,22 @@ body{
     margin: 0 auto;
 }
 
+main p{
+    line-height: 2;
+}
+
 header{
     height: 70px;
     width: 100%;
     background-color: #0084fd;
     display: flex;
     align-items: center;
+    color: #fff;
+}
+
+footer{
+    text-align: center;
+    background-color: #333333;
     color: #fff;
 }
 
@@ -71,7 +81,7 @@ header .row{
     margin: 5px 0px;
 }
 
-.col-50.white{
+.col-50.bk-white{
     background-color: #fff;
     margin: 40px 0px;
     padding: 20px;
@@ -79,7 +89,7 @@ header .row{
 }
 .col-70{
     width: 100%;
-    margin:5px 0px ;
+    margin:15px 0px ;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -89,14 +99,14 @@ header .row{
 
 .col-30{
     width: 100%;
-    margin: 5px 0px;
+    margin: 15px 0px;
     border-radius: 20px;
     padding: 20px ;
 }
 
 .col-33{
     width: 100%;
-    margin: 5px 0px;
+    margin: 15px 0px;
     border-radius: 20px;
     padding: 20px 20px 20px;
 }
@@ -119,7 +129,7 @@ header .row{
 
 .col-100{
     width: 100%;
-    margin: 5px 0px;
+    margin: 15px 0px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -127,10 +137,7 @@ header .row{
 }
 
 .text{
-    height: 150px;
     width: 100%;
-    background-color: purple;
-    margin: 5px 0px;
 }
 
 /* button */
@@ -153,6 +160,14 @@ header .row{
     margin: 20px 0px;
 }
 
+.button.white{
+    color: #9792e4;
+    background-color: #fff;
+    padding: 20px 60px;
+    border-radius: 40px;
+
+}
+
 #apple{
     font-size: 20px;
     color: #fff;
@@ -165,12 +180,24 @@ header .row{
     padding: 20px;
 }
 
+.padding-b-50px{
+    padding-bottom: 50px;
+}
+
+.padding-l-10px{
+    padding-left: 10px;
+}
+
 .margin-bt-40px{
     margin: 40px 0px;
 }
 
 .margin-b-20px{
     margin-bottom: 20px;
+}
+
+.margin-b-50px{
+    margin-bottom: 50px;
 }
 
 .border-radius-50px{
@@ -225,7 +252,7 @@ header .row{
 
 .jumbotron h3{
     color: #0680f5;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     font-size: 20px;
 }
 
@@ -339,6 +366,22 @@ header .row{
     font-size: 80px;
     color:#fdc15f ;
 }
+
+.get-started a{
+    color: #fff;
+}
+
+/* fine main */
+/* footer */
+
+footer p{
+    padding: 50px 0px;
+}
+
+footer a{
+    color: #7f7cbb;
+}
+
 /* Responsive  */
 
 @media screen and (min-width:768px){
