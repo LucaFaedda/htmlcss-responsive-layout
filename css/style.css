@@ -79,7 +79,6 @@ header .row{
 }
 .col-70{
     width: 100%;
-    background-color: #b5ddff;
     margin:5px 0px ;
     display: flex;
     flex-direction: column;
@@ -90,9 +89,7 @@ header .row{
 
 .col-30{
     width: 100%;
-    background-color: #b5ddff;
     margin: 5px 0px;
-    text-align: center;
     border-radius: 20px;
     padding: 20px ;
 }
@@ -204,6 +201,12 @@ header .row{
 .bk-violet{
     background-color: #9792e4;
 }
+
+.bk-light-blue{
+    background-color: #b5ddff;
+}
+
+
 /* Header */
 
 .list-desktop{
@@ -277,12 +280,45 @@ header .row{
 /* Benefit */
 
 .benefit h2{
-    font-size: 60px;
+    font-size: 50px;
     margin: 20px 0px;
 }
 
 .benefit h3{
     margin: 20px 0px;
+}
+
+/* About Us */
+
+.about-us h2{
+    color: #9792e4;
+    margin: 20px 0px;
+    font-size: 60px;
+    align-self: start;
+}
+
+.about-us h3{
+    color: #9792e4;
+}
+
+.about-us img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 20px 0px;
+}
+
+.image-about{
+    position: relative;
+}
+
+.image-about i{
+    position: absolute;
+    color: #9792e4;
+    font-size: 40px;
+    left:110px;
+    bottom: 135px;
 }
 /* Responsive  */
 
