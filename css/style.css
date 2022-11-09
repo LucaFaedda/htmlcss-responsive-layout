@@ -72,7 +72,6 @@ header .row{
 }
 
 .col-50.white{
-    border-radius: 50px;
     background-color: #fff;
     margin: 40px 0px;
     padding: 20px;
@@ -100,19 +99,34 @@ header .row{
 
 .col-33{
     width: 100%;
-    background-color: #b5ddff;
     margin: 5px 0px;
     border-radius: 20px;
     padding: 20px 20px 20px;
+}
+
+.col-33.jumbo{
+    background-color: #b5ddff;
     text-align: center;
 }
 
+
+.col-33.benefit{
+    background-color: #fff;
+    color: #9792e4;
+}
+
+
+.col-33 p{
+    color: #767676;
+}
+
 .col-100{
-    height: 200px;
     width: 100%;
-    background-color: green;
     margin: 5px 0px;
-    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
 }
 
 .text{
@@ -126,13 +140,19 @@ header .row{
 
 .button{
     color: #fff;
-    padding: 10px 30px;
+    padding: 10px 40px;
     border: none;
     border-radius: 20px;
 }
 
 .button.blue{
     background-color: #0680f5;
+    margin: 20px 0px;
+}
+
+.button.violet{
+    background-color: #9792e4;
+    color: #fff;
     margin: 20px 0px;
 }
 
@@ -144,12 +164,20 @@ header .row{
 
 /* Utility */
 
+.padding-20px{
+    padding: 20px;
+}
+
 .margin-bt-40px{
     margin: 40px 0px;
 }
 
 .margin-b-20px{
     margin-bottom: 20px;
+}
+
+.border-radius-50px{
+    border-radius: 50px;
 }
 
 .color-white{
@@ -160,10 +188,22 @@ header .row{
     line-height: 2;
 }
 
+.font-size-40px{
+    font-size: 40px;
+}
+
+.txt-center{
+    text-align: center;
+}
+
 .italic{
     font-style: italic;
 }
 
+
+.bk-violet{
+    background-color: #9792e4;
+}
 /* Header */
 
 .list-desktop{
@@ -187,7 +227,7 @@ header .row{
 }
 
 .jumbotron p{
-    color: #506271;
+    color: #767676;
 }
 
 .jumbotron img{
@@ -218,7 +258,32 @@ header .row{
     margin-top: 20px;
 }
 
+/* Testimonials */
 
+.testimonial img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 20px 0px;
+}
+
+.testimonial h2{
+    color: #9792e4;
+    margin: 20px 0px;
+}
+
+
+/* Benefit */
+
+.benefit h2{
+    font-size: 60px;
+    margin: 20px 0px;
+}
+
+.benefit h3{
+    margin: 20px 0px;
+}
 /* Responsive  */
 
 @media screen and (min-width:768px){
