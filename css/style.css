@@ -77,10 +77,16 @@ header .row{
     width: 100%;
 }
 
-.col-50-header{
-    width: 50%;
+.col-50-header1{
+    width: 30%;
     margin: 5px 0px;
 }
+
+.col-50-header2{
+    width: 70%;
+    margin: 5px 0px;
+}
+
 
 .col-50{
     width: 100%;
@@ -183,6 +189,13 @@ header .row{
     margin: 0;
 }
 
+.button-header{
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: #fff;
+}
+
 /* Utility */
 
 .padding-20px{
@@ -252,6 +265,14 @@ header .row{
 
 .list-desktop{
     display: none;
+
+}
+
+.list-desktop ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+
 }
 
 .hamburger{
@@ -465,6 +486,17 @@ footer a{
 
     .list-desktop{
         display: block;
+    }
+
+    header .row .col-50-header2{
+        display: flex;
+        justify-content: flex-end;
+    
+    }
+    
+    .list-desktop ul li{
+        padding: 0px 20px;
+
     }
 
     .jumbotron .col-70{
