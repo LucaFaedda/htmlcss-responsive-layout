@@ -512,6 +512,9 @@ footer a{
         flex-direction: row;
     }
 
+    .jumbotron.row.col-70.test img{
+        width: 50%;
+    }
 
     .bk-purple .row{
         flex-direction: row;
@@ -520,7 +523,11 @@ footer a{
     }
 
     .plane1{
-        transform: translateY(-30px);
+        transform: translateY(-100px);
+    }
+
+    .bk-purple .row .col-50:last-child{
+        transform: translateY(-50px);
     }
 
     .col-50{
