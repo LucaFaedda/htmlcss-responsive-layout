@@ -10,7 +10,7 @@ body{
 }
 
 .container{
-    width: 90%;
+    max-width: 400px;
     margin: 0 auto;
 }
 
@@ -27,8 +27,6 @@ header{
     height: 70px;
     width: 100%;
     background-color: #0084fd;
-    display: flex;
-    align-items: center;
     color: #fff;
 }
 
@@ -61,8 +59,16 @@ footer{
     text-align: center;
 }
 
+header .container{
+    height: 100%;
+}
+
 header .row{
     flex-direction: row;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+
 }
 
 .row{
@@ -72,7 +78,7 @@ header .row{
 }
 
 .col-50-header{
-    width: 100%;
+    width: 50%;
     margin: 5px 0px;
 }
 
@@ -396,6 +402,10 @@ footer a{
 /* Media quesry */
 
 @media screen and (min-width:768px){
+    
+    .container{
+        max-width: 745px;
+    }
 
     .jumbotron .row, .about-us .row, .col-100{
         flex-direction: row;
