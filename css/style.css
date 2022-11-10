@@ -393,20 +393,9 @@ footer a{
     color: #7f7cbb;
 }
 
-/* Responsive  */
+/* Media quesry */
 
 @media screen and (min-width:768px){
-    
-    .container{
-        width: 90%;
-        margin: 0 auto;
-    }
-
-    .container-sm{
-        width: 80%;
-        margin: 0 auto;
-
-    }
 
     .jumbotron .row, .about-us .row, .col-100{
         flex-direction: row;
@@ -455,6 +444,11 @@ footer a{
 
 @media  screen and (min-width:991px) {
     
+    .container{
+        max-width: 850px;
+    }
+
+
     .hamburger{
         display: none;
     }
@@ -463,17 +457,19 @@ footer a{
         display: block;
     }
 
-
     .bk-purple .row{
         flex-direction: row;
+        justify-content: space-between;
+        padding-top: 150px;
+    }
+
+    .plane1{
+        transform: translateY(-30px);
     }
 
     .col-50{
-        height: 50px;
-        width: 50%;
-        background-color: orange;
-        border: 1px solid black;
-        margin: 5px 0px;
+        width: 45%;
+        margin: 0px;
     }
 
     .card .row .col-33{
@@ -483,4 +479,14 @@ footer a{
         border: 1px solid black;
     }
 
+}
+
+@media screen and (min-width:1200px) {
+
+    .container{
+        max-width: 1100px;
+    }
+    .container-sm{
+        width: 40%;
+    }
 }
